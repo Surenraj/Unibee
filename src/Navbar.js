@@ -1,33 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react'
 import "./Navbar.css";
-
 import logo from "./images/unibee-logo.png";
 
 
-function Navbar() {
+
+class Navbar extends Component {
+
+  handleClick = () => {
+    console.log("Hi there, user!");
+  };
+
+
+
+
+  render() {
     return (
-       <div>
-           {/* <div class="overlay"></div>
-
-<div class="utility-nav d-none d-md-block">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <p class="small"><i class="bx bx-envelope"></i> logo@example.com | <i class="bx bx-phone"></i> +91-9876543210
-        </p>
-      </div>
-
-      <div class="col-12 col-md-6 text-right">
-        <p class="small">Free shipping on total of $99 of all products</p>
-      </div>
-    </div>
-  </div>
-</div>
- */}
-
-
-
-<nav class="navbar navbar-expand-md navbar-light bg-light main-menu" >
+      <div>
+          
+          <nav class="navbar navbar-expand-md navbar-light bg-light main-menu" >
   <div class="container">
 
     <button type="button" id="sidebarCollapse" class="btn btn-link d-block d-md-none">
@@ -56,7 +46,7 @@ function Navbar() {
     <div class="collapse navbar-collapse">
       <form class="form-inline my-2 my-lg-0 mx-auto">
         <input class="form-control" type="search" placeholder="Search for products..." aria-label="Search"/>
-        <button class="btn btn-success my-2 my-sm-0" type="submit"><i class="bx bx-search"></i></button>
+        <button class="btn btn-success my-2 my-sm-0" onClick={this.handleClick()} type="submit"><i class="bx bx-search"></i></button>
       </form>
 
       <ul class="navbar-nav">
@@ -179,6 +169,8 @@ function Navbar() {
 </nav>
        </div>
     )
+  }
 }
 
-export default Navbar;
+export default Navbar
+

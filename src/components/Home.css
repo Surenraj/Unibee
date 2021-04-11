@@ -1,6 +1,4 @@
 .carousel-item {
-  height: 70vh;
-  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,6 +19,11 @@
   margin: auto;
   font-size: 18px;
   line-height: 1.9;
+}
+@media (max-width: 568px) {
+  .carousel-item img {
+    height: 320px !important;
+  }
 }
 
 /*****************EXPLORE**************************/
@@ -304,6 +307,101 @@ center {
   );
 }
 
+/*******************About***************************/
+
+.aboutus {
+  position: relative;
+  /* opacity: 0.7; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 70px 80px;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed !important;
+}
+
+.aboutus {
+  background-image: url("https://cdn.shopify.com/s/files/1/0501/2465/2704/files/sl4_1920X.jpg?v=1603280806");
+  min-height: 400px;
+}
+
+.ptext {
+  top: 70%;
+  width: 100%;
+  text-align: center !important;
+  color: #fff;
+  letter-spacing: 8px;
+}
+
+.ptext .border {
+  background-color: #111;
+}
+
+.ptext h2 {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+.ptext p {
+  font-size: 19px;
+  width: auto;
+  font-weight: 800;
+  margin-top: 32px !important;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+@media (max-width: 568px) {
+  .aboutus {
+    background-attachment: scroll;
+  }
+}
+/*******************Become distributor*************/
+
+.support-block-inner {
+  background: #c3e0ec;
+  padding: 35px;
+}
+.support-block-inner a {
+  text-decoration: none;
+}
+hr.style-three {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.icon-img .row {
+  margin-left: 15px;
+}
+
+.icon-img .row h4 {
+  margin-left: 13px;
+}
+.support_text .desc {
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.support-block-type
+  .support_section
+  .support-wrapper:hover
+  .support_text
+  h4::after {
+  background: #000000 !important;
+}
+.support-block-type .support_section .support-wrapper .support_text h4::after {
+}
+.support-block-type .support-wrapper:hover .support_icon a::before {
+}
+.support-block-type .support-wrapper:hover .support_icon a {
+  color: #000000 !important;
+}
+
 /*******************FOOTER************************/
 
 ul {
@@ -311,14 +409,14 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #1693d3;
   position: relative;
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid #fff;
 }
 .single-cta i {
-  color: #1693d3;
+  color: #fff;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -334,7 +432,7 @@ ul {
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: #fff;
   font-size: 15px;
 }
 .footer-content {
@@ -358,7 +456,7 @@ ul {
 .footer-text p {
   margin-bottom: 14px;
   font-size: 14px;
-  color: #7e7e7e;
+  color: #fff;
   margin-top: -10px !important;
   line-height: 28px;
   text-align: justify !important;
@@ -406,7 +504,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #1693d3;
+  background: #fff;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -417,11 +515,11 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: #1693d3;
+  color: #fff;
   text-decoration: none;
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: #fff;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -432,8 +530,8 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2e2e2e;
-  border: 1px solid #2e2e2e;
+  background: #fff;
+  border: 1px solid #fff;
   color: #fff;
 }
 .subscribe-form button {
@@ -441,7 +539,7 @@ ul {
   right: 0;
   background: #1693d3;
   padding: 13px 20px;
-  border: 1px solid #1693d3;
+  border: 2px solid #fff;
   color: #fff;
   top: 0;
 }
@@ -451,16 +549,16 @@ ul {
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #202020;
+  background: #4caddd;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #fff;
 }
 .copyright-text p a {
-  color: #1693d3;
+  color: #fff;
   text-decoration: none;
 }
 .footer-menu li {
@@ -472,5 +570,27 @@ ul {
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #fff;
+}
+
+.content p {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.content h2 {
+  color: #000;
+  padding-top: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 3px;
+  font-size: 25px;
+}
+
+.content .price {
+  font-size: 18px;
+  color: #fd5c63;
+  letter-spacing: 0.6px;
+  font-family: "Roboto Slab", serif;
 }
