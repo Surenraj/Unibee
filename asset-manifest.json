@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Unibee/static/css/main.ea95a382.chunk.css",
+    "main.js": "/Unibee/static/js/main.756f1ac1.chunk.js",
+    "main.js.map": "/Unibee/static/js/main.756f1ac1.chunk.js.map",
+    "runtime-main.js": "/Unibee/static/js/runtime-main.b9a1377f.js",
+    "runtime-main.js.map": "/Unibee/static/js/runtime-main.b9a1377f.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Unibee/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.937a7fc7.chunk.js": "/Unibee/static/js/2.937a7fc7.chunk.js",
+    "static/js/2.937a7fc7.chunk.js.map": "/Unibee/static/js/2.937a7fc7.chunk.js.map",
+    "index.html": "/Unibee/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Unibee/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ea95a382.chunk.css.map": "/Unibee/static/css/main.ea95a382.chunk.css.map",
+    "static/js/2.937a7fc7.chunk.js.LICENSE.txt": "/Unibee/static/js/2.937a7fc7.chunk.js.LICENSE.txt",
+    "static/media/car-1.e30aa424.jpg": "/Unibee/static/media/car-1.e30aa424.jpg",
+    "static/media/car-2.7178c0e2.jpg": "/Unibee/static/media/car-2.7178c0e2.jpg",
+    "static/media/car-3.fef9ed78.jpg": "/Unibee/static/media/car-3.fef9ed78.jpg",
+    "static/media/unibee-logo.f807b925.png": "/Unibee/static/media/unibee-logo.f807b925.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9a1377f.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.937a7fc7.chunk.js",
+    "static/css/main.ea95a382.chunk.css",
+    "static/js/main.756f1ac1.chunk.js"
+  ]
+}
